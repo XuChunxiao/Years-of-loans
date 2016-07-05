@@ -60,11 +60,7 @@ define(['app'], function(app) {
                         gradient.addColorStop(0.0, 'rgba(255,255,255,'+newo+')');
                         gradient.addColorStop(this.stop, 'rgba(77,101,181,'+(newo*.6)+')');
                         gradient.addColorStop(1.0, 'rgba(77,101,181,0)');
-                        var img = new Image();
-                        img.src = "http://localhost:63342/Years%20of%20loans/application/yol/images/can.PNG";
-                        pattern = context.createPattern(img, "repeat");
-                        context.fillStyle = pattern;
-                        //context.fillStyle = gradient;
+                        context.fillStyle = gradient;
                         context.fill();
                     }
 
