@@ -6,7 +6,8 @@ require.config({
         app:"./app",
         'angular-route': '../../utils/angular/angular-route',
         'datetimepicker':'../../utils/xdx/components/bootstrap-datetimepicker/js/bootstrap-datetimepicker',
-        'momentjs':'../../utils/xdx/components/moment/moment'
+        'momentjs':'../../utils/xdx/components/moment/moment',
+        'templates':'templates'
     },
     shim: {
         'angular': {

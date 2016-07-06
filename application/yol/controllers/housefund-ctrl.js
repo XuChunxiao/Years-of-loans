@@ -4,8 +4,6 @@
 define(['app','momentjs', 'directives/housefund-view', 'directives/datepicker'], function (app,moment) {
     'use strict';
     app.controller('housefundCtrl', ['$scope',function ($scope) {
-
-
         $scope.setGender = function(ml){
             $scope.gender=ml;
             if(ml=="male"){

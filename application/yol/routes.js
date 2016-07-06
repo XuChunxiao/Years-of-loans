@@ -1,8 +1,8 @@
-define(['app'], function(app) {
+define(['app','templates'], function(app) {
     return app.config(['$routeProvider',
         function($routeProvider) {
             $routeProvider.when('/housefund', {
-                templateUrl: './views/housefund.html',
+                templateUrl: 'housefund',
                 controller: 'housefundCtrl'
             });
 

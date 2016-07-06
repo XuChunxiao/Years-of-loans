@@ -6,7 +6,7 @@ define(['app'], function(app) {
             // scope: {
             //     data: '=',
             // },
-            templateUrl: './views/head.html',
+            templateUrl: 'head',
             link: function(scope, element, attrs) {
 
             }
